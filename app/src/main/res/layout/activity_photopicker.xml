@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pickerToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="?attr/actionBarPopupTheme"
+        app:theme="?attr/actionBarTheme">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pickerToolbar"
+        android:clipToPadding="false"
+        android:columnWidth="@dimen/image_size"
+        android:horizontalSpacing="@dimen/space_size"
+        android:paddingBottom="?android:attr/actionBarSize"
+        android:verticalSpacing="@dimen/space_size"/>
+
+    <LinearLayout
+        android:id="@+id/layout_folder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/photo_picker_footer"
+        android:layout_below="@+id/pickerToolbar"
+        android:background="#cc000000"
+        android:visibility="gone">
+
+        <ListView
+            android:id="@+id/list_folder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:divider="@drawable/div_left_right_padding_10"
+            android:dividerHeight="1dp"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/photo_picker_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#cc000000"
+        android:clickable="true"
+        android:minHeight="?android:attr/actionBarSize">
+
+        <Button
+            android:id="@+id/btnAlbum"
+            style="@android:style/Widget.ActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:drawableRight="@drawable/text_indicator"
+            android:gravity="center"
+            android:text="@string/all_image"
+            android:textColor="@color/action_text_color"
+            android:textSize="@dimen/action_text_size"/>
+
+        <Button
+            android:id="@+id/btnPreview"
+            style="@android:style/Widget.ActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/preview"
+            android:textColor="@color/action_text_color"
+            android:textSize="@dimen/action_text_size"/>
+    </RelativeLayout>
+</RelativeLayout>

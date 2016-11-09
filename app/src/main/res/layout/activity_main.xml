@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    tools:context="com.example.eric.photopicker.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="20dp"
+        android:text="多图片选择"
+        android:gravity="center"
+        android:textColor="@color/text_black"
+        android:textSize="17sp"/>
+    <com.example.eric.photopicker.widget.ImageGridView
+        android:id="@+id/gridview_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:listSelector="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scrollbars="none"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:horizontalSpacing="16sp"
+        android:verticalSpacing="16dp"/>
+</LinearLayout>

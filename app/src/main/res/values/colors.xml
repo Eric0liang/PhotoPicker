@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="line_dotted_bg">#ebebeb</color><!-- 分割线 虚线  颜色 -->
+    <color name="line_solid_deep_bg">#d7d7d7</color> <!-- 深色实线 -->
+    <color name="text_black">#333333</color><!-- 主体标题文字颜色-黑色-->
+    <color name="text_black_light">#666666</color><!-- 正文颜色-浅灰色 -->
+    <color name="text_grep">#999999</color><!-- 次要文字-灰色 -->
+    <color name="line_soild_bg">#e5e5e5</color> <!-- 实线 -->
+    <color name="photopicker_background">#181819</color>
+</resources>

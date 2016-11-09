@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PhotoPicker</string>
+    <item name="tag_position" type="id">0xFFF11222</item>
+    <string name="image">图片</string>
+    <string name="all_image">所有图片</string>
+    <string name="preview">预览</string>
+    <string name="msg_no_camera">无法启用系统相机</string>
+    <string name="image_number">%s张</string>
+    <string name="image_max">你最多只能选择%s张图片</string>
+    <string name="done">完成</string>
+    <string name="done_with_count">完成(%1$d/%2$d)</string>
+    <string name="image_index">%1$d/%2$d</string>
+    <string name="phote_most_many">(最多%s张)</string>
+    <string name="delete">删 除</string>
+</resources>
