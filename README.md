@@ -1,5 +1,5 @@
 # 多图片选择
-###效果预览
+###效果预览<br/>
 ![gif](https://github.com/Eric0liang/GIF/blob/master/image_1.gif) <br/>
 ![gif](https://github.com/Eric0liang/GIF/blob/master/image_2.gif) <br/>
 ![gif](https://github.com/Eric0liang/GIF/blob/master/image_3.gif)
